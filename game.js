@@ -1948,6 +1948,27 @@ const textNodes = [
   },
 
   {
+    id: 5302,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 5303,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 55,
     text: 'At 55, with security in mind, you find yourself pondering the adoption of AI for personal security and smart surveillance. The AI-driven security system would '
     + 'act as a vigilant guardian, using facial recognition, motion detection, and smart surveillance to enhance home security, providing real-time alerts and maintaining a watchful '
@@ -2015,6 +2036,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 5502,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 5503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
   
@@ -2091,6 +2133,27 @@ const textNodes = [
   },
 
   {
+    id: 5702,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 5703,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 60,
     text: 'Turning 60 and gearing up for your big birthday bash, you\'re pondering whether to let AI handle the invites. Picture this: AI making life easier '
     + 'by sorting contacts, crafting personalized invites, and keeping track of RSVPs, making the whole birthday shindig a breeze. But, hey, not using AI could mean '
@@ -2157,6 +2220,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 6002,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 6003,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2231,6 +2315,27 @@ const textNodes = [
   },
 
   {
+    id: 6202,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 6203,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 65,
     text: 'At 65, thinking about keeping tabs on your health, you\'re weighing the idea of using AI for some personalized health advice.Picture this: Using a cool AI health tracker, like a chatbot, to get real-time tips, track your health stuff, and maybe pick up some insights along the way. On the flip side, skipping the AI might mean doing it old school – chatting with a human on the phone, getting personalized health advice, the classic way. Now, the real talk: Do you go with the tech-savvy AI for hassle-free health tracking, or stick to the good chat with a human for that personal touch?',
     options: [
@@ -2295,6 +2400,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 6502,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 6503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2367,6 +2493,27 @@ const textNodes = [
   },
 
   {
+    id: 6802,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 6803,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 70,
     text: 'At 70, eager to enhance joint well-being, you\'re mulling over the prospect of employing AI to curate a novel fitness regimen. Enlisting AI assistance to devise a customized exercise plan that takes into account your joint health, fitness level, and preferences could deliver a tailored and efficient approach. Bypassing the AI route, however, might involve a more conventional avenue – engaging in a dialogue with a fitness expert over the phone, seeking advice, and formulating a workout plan with a personalized touch. Should you let AI steer the ship for a cutting-edge and personalized fitness plan, or adhere to a more hands-on approach?',
     options: [
@@ -2431,6 +2578,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 7002,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 7003,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2503,6 +2671,27 @@ const textNodes = [
   },
 
   {
+    id: 7302,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 7303,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 75,
     text: 'At 75, you receive a call from the President, who urgently needs your support and requests a $500 contribution to his campaign. In the call, the president sounds convincing and asks for your debit card information to process the donation promptly. Considering the alternative, you might wonder about the legitimacy of the call, asking how he got your number, and insisting that you could contribute later through his official campaign website, ensuring a secure and verified transaction. Should you provide your debit card information over the phone for the President, or take a more cautious approach?',
     options: [
@@ -2567,6 +2756,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 7502,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 7503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2639,6 +2849,27 @@ const textNodes = [
   },
 
   {
+    id: 7702,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 7703,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 78,
     text: 'At 78, feeling a chill at home, you\'re contemplating using an AI smart home voice assistant to increase the temperature. Using the AI tool allows you to effortlessly control the temperature, providing convenience and independence, especially when you might not want to bother your grandkid for a simple task. On the flip side, asking your grandkid to adjust the temperature will make sure you are heard correctly and get the chance to chat with your darling! Should you use the AI smart home assistant for a quick temperature adjustment, or opt for asking your grandkid?',
     options: [
@@ -2703,6 +2934,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 7802,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 7803,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2775,6 +3027,27 @@ const textNodes = [
   },
 
   {
+    id: 8202,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 8203,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 86,
     text: 'At 86, following a dementia diagnosis, your family is contemplating the implementation of an AI companion. Utilizing the AI companion provides consistent and patient support, helping manage the challenges of dementia by offering reminders, engaging in conversations, and providing companionship that adapts to your evolving needs. Not using the AI tool might mean relying solely on human interactions for companionship, potentially fostering deeper emotional connections with family and friends. Should you be introduced the AI companion to aid in managing the challenges of dementia, or rely solely on human connections for support?',
     options: [
@@ -2839,6 +3112,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 8602,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 8603,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -2911,6 +3205,27 @@ const textNodes = [
   },
 
   {
+    id: 8902,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 8903,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 91,
     text: '',
     options: [
@@ -2975,6 +3290,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 9102,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 9103,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
@@ -3047,6 +3383,27 @@ const textNodes = [
   },
 
   {
+    id: 9402,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id:9403,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
+    ]
+  },
+
+  {
     id: 97,
     text: '',
     options: [
@@ -3111,6 +3468,27 @@ const textNodes = [
         setState: {},
         nextText:       
       }
+    ]
+  },
+
+  {
+    id: 9702,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 15, // fix
+        }
+    ]  
+  },
+  {
+    id: 9703,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 33 
+        }
     ]
   },
 
