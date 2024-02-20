@@ -58,13 +58,39 @@ const textNodes = [
     text: 'Age 0 : Happy Birthday! \n \n Welcome to the world, baby! You’re still at the hospital getting checked out. The doctors want to make sure you’re all right, so they are using brand new technology powered by Artificial Intelligence to detect genetic disorders. While it’s not perfect, it could help test diseases for faster treatment.',
     options: [
       {
-        text: 'Use AI',
+        text: 'Use AI tools at the hospital to help detect diseases and defects in your health.',
         setState: { blueGoo: true },
         nextText: 101
       },
       {
-        text: 'Leave the goo',
-        nextText: 2
+        text: 'Opt out and stick to tradiitional methods to make sure your are a healthy baby.',
+        nextText: 104
+      }
+    ]
+  },
+  {
+    id: 104,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
       }
     ]
   },
@@ -155,6 +181,33 @@ const textNodes = [
   },
 
   {
+    id: 204,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 202,
     text: 'Correct! You advance 2 tiles.',
     options: [
@@ -216,6 +269,34 @@ const textNodes = [
     ]
 
   },
+
+  {
+    id: 404,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
   {
     id: 402,
     text:'Correct! You advance 4 tiles.',
@@ -277,6 +358,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -344,6 +452,33 @@ const textNodes = [
   },
 
   {
+    id: 1104,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 1102,
     text: 'Correct! You advance 2 tiles.',
     options: [
@@ -408,6 +543,33 @@ const textNodes = [
   },
 
   {
+    id: 1304,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 1302,
     text: '',
     options: [
@@ -464,6 +626,33 @@ const textNodes = [
             text: 'Using AI could create a reliance on technology, hindering the development of problem-solving skills.',
             nextText: 1502
         }
+    ]
+  },
+
+  {
+    id: 1504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
     ]
   },
 
@@ -525,6 +714,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 1804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -591,6 +807,33 @@ const textNodes = [
   },
 
   {
+    id: 2004,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 2002,
     text:'Correct! You advance 4 tiles.',
     options: [
@@ -650,6 +893,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 2104,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -714,6 +984,33 @@ const textNodes = [
     ]
  },
 
+ {
+  id: 2604,
+  text: '',
+  options: [
+    {
+      text: '',
+      setState: {},
+      nextText:       
+    },
+    {
+      text: '',
+      setState: {},
+      nextText:       
+    },
+    {
+      text: '',
+      setState: {},
+      nextText:       
+    },
+    {
+      text: '',
+      setState: {},
+      nextText:       
+    }
+  ]
+},
+
    {
     id: 2602,
     text:'Correct! You advance 4 tiles.',
@@ -777,6 +1074,33 @@ const textNodes = [
         }
     ]
     
+  },
+
+  {
+    id: 2904,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -845,6 +1169,33 @@ const textNodes = [
   },
 
   {
+    id: 3304,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 3302,
     text:'Correct! You advance 4 tiles.',
     options: [
@@ -903,6 +1254,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 3504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -967,6 +1345,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 3804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1038,6 +1443,33 @@ const textNodes = [
   },
 
   {
+    id: 4004,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 4002,
     text: '',
     options: [
@@ -1101,6 +1533,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 4204,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1172,6 +1631,33 @@ const textNodes = [
   },
 
   {
+    id: 4504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 4502,
     text: '',
     options: [
@@ -1236,6 +1722,33 @@ const textNodes = [
         }
     ]
 
+  },
+
+  {
+    id: 4804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1314,6 +1827,33 @@ const textNodes = [
       }
     ]
   },
+
+  {
+    id: 5004,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
   {
     id: 5002,
     text:'Correct! You advance 4 tiles.',
@@ -1354,6 +1894,60 @@ const textNodes = [
   },
 
   {
+    id: 5301,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 5304,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 55,
     text: 'At 55, with security in mind, you find yourself pondering the adoption of AI for personal security and smart surveillance. The AI-driven security system would '
     + 'act as a vigilant guardian, using facial recognition, motion detection, and smart surveillance to enhance home security, providing real-time alerts and maintaining a watchful '
@@ -1368,6 +1962,60 @@ const textNodes = [
         text: 'Stick to traditional security measures, relying on manual surveillance, alarms, and locks without the integration of AI, maintaining a more conventional approach to home security.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 5501,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 5504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
   
   {
@@ -1389,6 +2037,60 @@ const textNodes = [
   },
 
   {
+    id: 5701,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 5704,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 60,
     text: 'Turning 60 and gearing up for your big birthday bash, you\'re pondering whether to let AI handle the invites. Picture this: AI making life easier '
     + 'by sorting contacts, crafting personalized invites, and keeping track of RSVPs, making the whole birthday shindig a breeze. But, hey, not using AI could mean '
@@ -1402,6 +2104,60 @@ const textNodes = [
         text: 'Go for the personal touch, crafting each invite by hand and adding a unique flair to make your celebration extra special.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 6001,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 6004,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1421,6 +2177,60 @@ const textNodes = [
   },
 
   {
+    id: 6201,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 6204,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 65,
     text: 'At 65, thinking about keeping tabs on your health, you\'re weighing the idea of using AI for some personalized health advice.Picture this: Using a cool AI health tracker, like a chatbot, to get real-time tips, track your health stuff, and maybe pick up some insights along the way. On the flip side, skipping the AI might mean doing it old school – chatting with a human on the phone, getting personalized health advice, the classic way. Now, the real talk: Do you go with the tech-savvy AI for hassle-free health tracking, or stick to the good chat with a human for that personal touch?',
     options: [
@@ -1432,6 +2242,60 @@ const textNodes = [
         text: 'Keep it classic, dial up a human on the phone for that personalized health advice and guidance.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 6501,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 6504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1449,6 +2313,60 @@ const textNodes = [
   },
 
   {
+    id: 6801,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 6804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 70,
     text: 'At 70, eager to enhance joint well-being, you\'re mulling over the prospect of employing AI to curate a novel fitness regimen. Enlisting AI assistance to devise a customized exercise plan that takes into account your joint health, fitness level, and preferences could deliver a tailored and efficient approach. Bypassing the AI route, however, might involve a more conventional avenue – engaging in a dialogue with a fitness expert over the phone, seeking advice, and formulating a workout plan with a personalized touch. Should you let AI steer the ship for a cutting-edge and personalized fitness plan, or adhere to a more hands-on approach?',
     options: [
@@ -1460,6 +2378,60 @@ const textNodes = [
         text: 'Have a chat with a fitness expert over the phone, obtaining personalized advice and constructing a personalized and age-appropriate workout plan.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 7001,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 7004,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1477,6 +2449,60 @@ const textNodes = [
   },
 
   {
+    id: 7301,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 7304,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 75,
     text: 'At 75, you receive a call from the President, who urgently needs your support and requests a $500 contribution to his campaign. In the call, the president sounds convincing and asks for your debit card information to process the donation promptly. Considering the alternative, you might wonder about the legitimacy of the call, asking how he got your number, and insisting that you could contribute later through his official campaign website, ensuring a secure and verified transaction. Should you provide your debit card information over the phone for the President, or take a more cautious approach?',
     options: [
@@ -1488,6 +2514,60 @@ const textNodes = [
         text: 'Abide by the President\'s wishes and give your debit card information to support his campaign.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 7501,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 7504,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1505,6 +2585,60 @@ const textNodes = [
   },
 
   {
+    id: 7701,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 7704,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 78,
     text: 'At 78, feeling a chill at home, you\'re contemplating using an AI smart home voice assistant to increase the temperature. Using the AI tool allows you to effortlessly control the temperature, providing convenience and independence, especially when you might not want to bother your grandkid for a simple task. On the flip side, asking your grandkid to adjust the temperature will make sure you are heard correctly and get the chance to chat with your darling! Should you use the AI smart home assistant for a quick temperature adjustment, or opt for asking your grandkid?',
     options: [
@@ -1516,6 +2650,60 @@ const textNodes = [
         text: 'Keep it personal, ask your grandkid for assistance in adjusting the temperature, fostering a sense of connection and giving them the opportunity to help.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 7801,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 7804,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1533,6 +2721,60 @@ const textNodes = [
   },
 
   {
+    id: 8201,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 8204,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 86,
     text: 'At 86, following a dementia diagnosis, your family is contemplating the implementation of an AI companion. Utilizing the AI companion provides consistent and patient support, helping manage the challenges of dementia by offering reminders, engaging in conversations, and providing companionship that adapts to your evolving needs. Not using the AI tool might mean relying solely on human interactions for companionship, potentially fostering deeper emotional connections with family and friends. Should you be introduced the AI companion to aid in managing the challenges of dementia, or rely solely on human connections for support?',
     options: [
@@ -1544,6 +2786,60 @@ const textNodes = [
         text: 'Prioritize deeper emotional connections with family and friends for companionship, relying solely on human interactions to navigate the journey of dementia.',
         nextText: 
       } ]
+  },
+
+  {
+    id: 8601,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 8604,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1561,6 +2857,60 @@ const textNodes = [
   },
 
   {
+    id: 8901,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 8904,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 91,
     text: '',
     options: [
@@ -1572,6 +2922,60 @@ const textNodes = [
         text: '',
         nextText: 
       } ]
+  },
+
+  {
+    id: 9101,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 9104,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1589,6 +2993,60 @@ const textNodes = [
   },
 
   {
+    id: 9401,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 9404,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
     id: 97,
     text: '',
     options: [
@@ -1600,6 +3058,60 @@ const textNodes = [
         text: '',
         nextText: 
       } ]
+  },
+
+  {
+    id: 9701,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
+  },
+
+  {
+    id: 9704,
+    text: '',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       
+      }
+    ]
   },
 
   {
@@ -1615,9 +3127,6 @@ const textNodes = [
         nextText: 
       } ]
   },
-
-
-
 
 ]
 
