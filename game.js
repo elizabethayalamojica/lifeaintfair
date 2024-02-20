@@ -1534,14 +1534,14 @@ const textNodes = [
 
   {
     id: 86,
-    text: '',
+    text: 'At 86, following a dementia diagnosis, your family is contemplating the implementation of an AI companion. Utilizing the AI companion provides consistent and patient support, helping manage the challenges of dementia by offering reminders, engaging in conversations, and providing companionship that adapts to your evolving needs. Not using the AI tool might mean relying solely on human interactions for companionship, potentially fostering deeper emotional connections with family and friends. Should you be introduced the AI companion to aid in managing the challenges of dementia, or rely solely on human connections for support?',
     options: [
       {
-        text: '',
+        text: 'Embrace the AI companion to help manage the challenges of dementia, providing a reliable source of companionship and assistance.',
         nextText: 
       },
       {
-        text: '',
+        text: 'Prioritize deeper emotional connections with family and friends for companionship, relying solely on human interactions to navigate the journey of dementia.',
         nextText: 
       } ]
   },
