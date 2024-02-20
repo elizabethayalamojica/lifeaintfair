@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+body {
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+.btn {
+    background-color: rgb(201, 169, 136);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 10px 20px;
+    /* this below is text color inside the button */
+    color: rgb(0, 0, 0); 
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    border-color: brown;
+}
