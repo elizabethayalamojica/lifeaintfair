@@ -1020,7 +1020,7 @@ const textNodes = [
     options: [
         {
             text: 'Continue',
-            nextText: 35,
+            nextText: 33,
         }
     ]  
    },
@@ -1326,78 +1326,78 @@ const textNodes = [
     ]
   },
 
-  // {
-  //   id: 3801,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
+  {
+    id: 3801,
+    text: 'Embracing AI for navigation, you experience a seamless journey with real-time traffic updates and efficient shortcuts, making your drive home a breeze. The advanced technology ensures you avoid unexpected delays and arrive home in a timely manner. \n \n  How did AI help us here?',
+    options: [
+        {
+            text: 'AI communicated with traffic lights to ensure they turned green upon your arrival.',
+            nextText:3803
+        },
+        {
+            text: 'AI utilized real-time traffic data to suggest alternative routes, helping you navigate around congested areas.',
+            nextText: 3802
+        },
+        {
+            text: 'The AI displayed a regular map and drew lines for your journey home.',
+            nextText: 3803
+        },
+        {
+            text: 'AI utilized a complex algorithm based on your favorite places to suggest the most aesthetically pleasing route.',
+            nextText:3803
+        }
+    ]
 
-  // },
+  },
 
-  // {
-  //   id: 3804,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 3804,
+    text: 'Choosing to rely solely on your memory, you venture into unfamiliar alleys and encounter a situation where your car is broken into, leading to an unfortunate theft. The absence of AI-driven navigation left you vulnerable to unforeseen risks in an unfamiliar area, highlighting the potential drawbacks of not leveraging technology for real-time guidance. The experience serves as a cautionary tale about the importance of using AI to enhance safety and efficiency in navigation. \n \n How could have AI helped us here?',
+    options: [
+      {
+        text: 'AI could have utilized real-time traffic data to suggest alternative routes, helping you navigate around congested areas.',
+        setState: {},
+        nextText:       3802
+      },
+      {
+        text: 'AI could have communicated with traffic lights to ensure they turned green upon your arrival.',
+        setState: {},
+        nextText:       3803
+      },
+      {
+        text: 'The AI could have displayed a regular map and drew lines for your journey home.',
+        setState: {},
+        nextText:       3803
+      },
+      {
+        text: 'AI could have utilized a complex algorithm based on your favorite places to suggest the most aesthetically pleasing route.',
+        setState: {},
+        nextText: 3803      
+      }
+    ]
+  },
 
-  // {
-  //   id: 3802,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 3802,
+    text: 'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 45
+        }
+    ]
+  },
 
-  // {
-  //   id: 3803,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 3803,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+            text: 'Continue',
+            nextText:40
+        }
+    ]
+  },
 
   {
     id: 40,
@@ -1495,686 +1495,680 @@ const textNodes = [
   },
 
 
-  // {
-  //   id: 42,
-  //   text: 'At 42, managing family plans and finances, you\'re pondering the idea of bringing AI into the mix to make life a bit smoother—helping '
-  //   +'with budgeting, suggesting wise investments, and generally taking some weight off your financial shoulders. The AI assistant could help by '
-  //   + ' diving into your spending habits, recommending budget tweaks, and highlighting investment opportunities—a kind of digital assistant for your money matters. '
-  //   + 'Without AI, family planning and financial management would rely on traditional methods, such as manual budgeting and periodic consultations '
-  //   + 'with financial advisors, potentially missing out on real-time insights and personalized recommendations.',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 42,
+    text: 'At 42, managing family plans and finances, you\'re pondering the idea of bringing AI into the mix to make life a bit smoother—helping '
+    +'with budgeting, suggesting wise investments, and generally taking some weight off your financial shoulders. The AI assistant could help by '
+    + ' diving into your spending habits, recommending budget tweaks, and highlighting investment opportunities—a kind of digital assistant for your money matters. '
+    + 'Without AI, family planning and financial management would rely on traditional methods, such as manual budgeting and periodic consultations '
+    + 'with financial advisors, potentially missing out on real-time insights and personalized recommendations.',
+    options: [
+        {
+            text: 'Opt for AI to streamline family plans and finances, providing real-time insights and personalized recommendations.',
+            nextText:4201
+        },
+        {
+            text: 'Stick to traditional methods, managing finances manually and seeking advice from financial advisors.',
+            nextText:4204
+        }
+    ]
+  },
 
-  // {
-  //   id: 4201,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
+  {
+    id: 4201,
+    text: 'Deciding to bring AI into your family\'s financial journey turns out to be a game-changer! The smart digital assistant helps your family manage money more efficiently by suggesting smart spending habits, offering tips on budget adjustments, and even pointing out exciting investment opportunities. With AI by your side, handling family plans and finances becomes easier, leaving more time for fun and exciting activities! \n \n Quiz: How did AI help us here?',
+    options: [
+        {
+            text: 'By utilizing advanced algorithms, the AI accurately predicted the weather, ensuring our weekend plans weren\'t spoiled by unexpected rain or storms.',
+            nextText: 4203
+        },
+        {
+            text: 'The AI efficiently organized the multitude of family photos stored on your computer, creating a neat and easily accessible digital album.',
+            nextText:4203
+        },
+        {
+            text: 'It suggested smart spending habits, offered budget tips, and highlighted investment opportunities for your family\'s financial journey.',
+            nextText:4202
+        },
+        {
+            text: 'The AI seamlessly secured dinner reservations for your family at a popular restaurant, saving you time and effort in the planning process',
+            nextText:4203
+        }
+    ]
 
-  // },
+  },
 
-  // {
-  //   id: 4204,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 4204,
+    text: 'Without relying on that new AI helper for family plans and money, you had to stick to the old-fashioned way of writing down all the spending and talking to financial advisors about money matters. Unfortunately, things didn\'t go as smoothly, and you ended up facing some financial troubles and debts. Ultimately, you impacted your family\'s financial stability, and regrettably, limited your capacity to afford sending your kids to college. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'The AI could have organized the multitude of family photos stored on your computer, creating a neat and easily accessible digital album.',
+        setState: {},
+        nextText: 4203      
+      },
+      {
+        text: 'By utilizing advanced algorithms, the AI could have accurately predicted the weather, ensuring our weekend plans weren\'t spoiled by unexpected rain or storms.',
+        setState: {},
+        nextText:   4203    
+      },
+      {
+        text: 'The AI could have secured dinner reservations for your family at a popular restaurant, saving you time and effort in the planning process',
+        setState: {},
+        nextText:   4203    
+      },
+      {
+        text: 'It could have suggested smart spending habits, offered budget tips, and highlighted investment opportunities for your family\'s financial journey.',
+        setState: {},
+        nextText:   4202    
+      }
+    ]
+  },
 
-  // {
-  //   id: 4202,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4202,
+    text: 'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText:50
+        }
+    ]
+  },
 
-  // {
-  //   id: 4203,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4203,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 45
+        }
+    ]
+  },
 
 
-  // {
-  //   id: 45,
-  //   text: 'At 45, grappling with a hectic schedule and grocery shopping demands, you contemplate employing AI to streamline your personal grocery '
-  //   + 'shopping experience. The AI, acting as a smart shopping assistant, would analyze your dietary preferences, past purchase history, and '
-  //   + 'current needs to generate a tailored shopping list, suggest recipe ideas, and even alert you to relevant discounts and promotions. '
-  //   + 'Without AI, the alternative would involve manually creating shopping lists, navigating crowded grocery stores, and relying on memory or '
-  //   + ' handwritten notes, potentially leading to oversights and less efficient shopping trips. Should you embrace AI to '
-  //   + ' revolutionize your grocery shopping routine, leveraging its analytical capabilities, or stick to the traditional, hands-on approach?',
-  //   options: [
-  //       {
-  //           text: 'Embrace the AI-powered shopping assistant for a more efficient and personalized grocery shopping experience, with tailored lists, '
-  //           + 'recipe suggestions, and potential cost savings.',
-  //           nextText:
-  //       },
-  //       {
-  //           text: 'Stick to the traditional, hands-on approach of manual shopping lists and navigating the grocery store without the assistance of AI, preferring to handpick everything yourself.',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 45,
+    text: 'At 45, grappling with a hectic schedule and grocery shopping demands, you contemplate employing AI to streamline your personal grocery '
+    + 'shopping experience. The AI, acting as a smart shopping assistant, would analyze your dietary preferences, past purchase history, and '
+    + 'current needs to generate a tailored shopping list, suggest recipe ideas, and even alert you to relevant discounts and promotions. '
+    + 'Without AI, the alternative would involve manually creating shopping lists, navigating crowded grocery stores, and relying on memory or '
+    + ' handwritten notes, potentially leading to oversights and less efficient shopping trips. Should you embrace AI to '
+    + ' revolutionize your grocery shopping routine, leveraging its analytical capabilities, or stick to the traditional, hands-on approach?',
+    options: [
+        {
+            text: 'Embrace the AI-powered shopping assistant for a more efficient and personalized grocery shopping experience, with tailored lists, '
+            + 'recipe suggestions, and potential cost savings.',
+            nextText: 4501
+        },
+        {
+            text: 'Stick to the traditional, hands-on approach of manual shopping lists and navigating the grocery store without the assistance of AI, preferring to handpick everything yourself.',
+            nextText:4504
+        }
+    ]
+  },
 
-  // {
-  //   id: 4501,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
+  {
+    id: 4501,
+    text: 'Choosing to rely on AI for your grocery shopping turned into a nightmare as the smart shopping assistant failed to detect your peanut allergy. Consequently, you unknowingly consumed items containing peanuts, leading to a severe allergic reaction that required immediate medical attention. The use of AI in this scenario not only jeopardized your health but also resulted in a distressing trip to the hospital. \n \n How did AI impact this situation?',
+    options: [
+        {
+            text: 'The AI, misinterpreting preferences, recommended a bizarre mix of incompatible ingredients, resulting in an impractical shopping list.',
+            nextText:4503
+        },
+        {
+            text: 'The AI, influenced by an ad algorithm, targeted expensive and unnecessary products, causing an unexpected strain on the budget.',
+            nextText:4503
+        },
+        {
+            text: 'Overlooking brand preferences, the AI suggested unfamiliar and unappealing alternatives, making the shopping experience frustrating and disappointing.',
+            nextText:4503
+        },
+        {
+            text: 'The AI\'s flawed algorithm and oversight suggested items containing peanuts, endangering your health and leading to wasted food.',
+            nextText:4502
+        }
+    ]
 
-  // },
+  },
 
-  // {
-  //   id: 4504,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 4504,
+    text: 'Without the digital assistant, you had the freedom to personally navigate the aisles, keeping a watchful eye for potential allergens and hand-picking fresh produce. Your keen awareness allowed you to choose budget-friendly alternatives, avoiding the pitfalls of AI-driven recommendations that might have targeted expensive products. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'By creating a holographic shopping list that magically guides you through the store',
+        nextText:4503
+    },
+    {
+      text: 'By assisting in organizing your home library and suggesting reading materials for the week.',
+      nextText:4502
+    },
+    {
+        text: 'By predicting the weather and recommending suitable items for your dietary preferences.',
+        nextText:4503
+    },
+    {
+      text: 'By targeting expensive and unnecessary products, causing an unexpected strain on your budget.',
+      nextText:4502
+    }
+    ]
+  },
 
-  // {
-  //   id: 4502,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4502,
+    text: 'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText:53
+        }
+    ]
+  },
 
-  // {
-  //   id: 4503,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 48
+        }
+    ]
+  },
 
-  // {
-  //   id: 48,
-  //   text: 'At 48, facing unpredictable weather patterns, you ponder the use of AI for weather forecasting to ensure dressing appropriately for the day ahead. '
-  //   + 'The AI weather forecasting tool would analyze real-time weather data, considering factors like temperature, humidity, and precipitation, and '
-  //   + 'provide personalized outfit recommendations to suit the day\'s conditions. Without AI, the alternative would involve relying on traditional '
-  //   + 'weather forecasts from news sources or smartphone apps. Now, the decision is in your hands: Opt for AI\'s '
-  //   + 'precision in weather forecasts or stick to the conventional approach?',
-  //   options: [
-  //       {
-  //           text: 'Embrace the convenience of AI for accurate weather forecasts, ensuring you dress appropriately and stay prepared for changing weather '
-  //           + 'conditions.',
-  //           nextText:
-  //       },
-  //       {
-  //           text: 'Stick with the familiarity of traditional weather methods, recognizing the occasional unpredictability, but maintaining a more hands-on '
-  //           + 'and adaptive approach to dressing for the day.',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 48,
+    text: 'At 48, facing unpredictable weather patterns, you ponder the use of AI for weather forecasting to ensure dressing appropriately for the day ahead. '
+    + 'The AI weather forecasting tool would analyze real-time weather data, considering factors like temperature, humidity, and precipitation, and '
+    + 'provide personalized outfit recommendations to suit the day\'s conditions. Without AI, the alternative would involve relying on traditional '
+    + 'weather forecasts from news sources or smartphone apps. Now, the decision is in your hands: Opt for AI\'s '
+    + 'precision in weather forecasts or stick to the conventional approach?',
+    options: [
+        {
+            text: 'Embrace the convenience of AI for accurate weather forecasts, ensuring you dress appropriately and stay prepared for changing weather '
+            + 'conditions.',
+            nextText: 4801
+        },
+        {
+            text: 'Stick with the familiarity of traditional weather methods, recognizing the occasional unpredictability, but maintaining a more hands-on '
+            + 'and adaptive approach to dressing for the day.',
+            nextText:4804
+        }
+    ]
+  },
 
-  // {
-  //   id: 4801,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       },
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
+  {
+    id: 4801,
+    text: 'Having embraced the AI weather forecasting tool in the past, your daily outfit choices were spot-on, thanks to its accurate predictions based on real-time weather data. The personalized recommendations tailored to specific conditions ensured you were well-prepared for the day, making unpredictable weather patterns more manageable and helping you confidently tackle any fashion challenges that came your way. \n \n How did AI help us here?',
+    options: [
+        {
+            text: 'By generating personalized outfit recommendations for unpredictable weather.',
+            nextText: 4803
+        },
+        {
+            text: 'By analyzing real-time weather data to provide accurate and personalized forecasts.',
+            nextText:4802
+        },
+        {
+            text: 'By calculating the exact number of raindrops per square inch.',
+            nextText:4803
+        },
+        {
+            text: 'By analyzing satellite images to identify cloud shapes',
+            nextText:4803
+        }
+    ]
 
-  // },
+  },
 
-  // {
-  //   id: 4804,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 4804,
+    text: 'Without the aid of AI, relying on traditional weather forecasts resulted in inaccurate predictions, leading to instances where you dressed inadequately for sudden changes in weather. You found yourself ill-prepared for unexpected rain, extreme temperature variations, or unanticipated humidity levels, causing discomfort and inconvenience throughout the day. The lack of personalized outfit recommendations tailored to real-time weather conditions not only resulted in less-than-ideal wardrobe choices but also contributed to falling ill due to exposure to adverse weather conditions. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'By analyzing real-time weather data to provide accurate and personalized forecasts.',
+        setState: {},
+        nextText:  4802     
+      },
+      {
+        text: 'By generating personalized outfit recommendations for unpredictable weather.',
+        setState: {},
+        nextText:      4803 
+      },
+      {
+        text: 'By calculating the exact number of raindrops per square inch.',
+        setState: {},
+        nextText:       4803
+      },
+      {
+        text: 'By analyzing satellite images to identify cloud shapes.',
+        setState: {},
+        nextText:       4803
+      }
+    ]
+  },
 
-  // {
-  //   id: 4802,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4802,
+    text: 'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 55
+        }
+    ]
+  },
 
-  // {
-  //   id: 4803,
-  //   text: '',
-  //   options: [
-  //       {
-  //           text: '',
-  //           nextText:
-  //       }
-  //   ]
-  // },
+  {
+    id: 4803,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 50
+        }
+    ]
+  },
 
 
 
-  // {
-  //   id: 50,
-  //   text: 'Age 50 : New Toy! \n \n On your 50th birthday, your family surprises you with a cutting-edge self-driving car, a gift that leaves you awestruck and excited. Eager to experience this revolutionary technology firsthand, you embark on a test drive with your loved ones. Amidst the thrill of witnessing the car\'s capabilities, you enjoy the freedom to relax and engage with your family, feeling like a passenger on an extraordinary journey. The car\'s sensors and AI algorithms seamlessly guide it through traffic, giving you a taste of the future of transportation.',
-  //   options: [
-  //     {
-  //       text: 'Embrace the gift of a self-driving car, enjoying the thrill of a test drive guided by the car\'s sensors and AI algorithms.',
-  //       nextText: 8
-  //     },
-  //     {
-  //       text: 'Opt for traditional driving experiences, preferring to be in control without relying on self-driving technology for transportation.',
-  //       nextText: 0
-  //     }
+  {
+    id: 50,
+    text: 'Age 50 : New Toy! \n \n On your 50th birthday, your family surprises you with a cutting-edge self-driving car, a gift that leaves you awestruck and excited. Eager to experience this revolutionary technology firsthand, you embark on a test drive with your loved ones. Amidst the thrill of witnessing the car\'s capabilities, you enjoy the freedom to relax and engage with your family, feeling like a passenger on an extraordinary journey. The car\'s sensors and AI algorithms seamlessly guide it through traffic, giving you a taste of the future of transportation.',
+    options: [
+      {
+        text: 'Embrace the gift of a self-driving car, enjoying the thrill of a test drive guided by the car\'s sensors and AI algorithms.',
+        nextText: 5001
+      },
+      {
+        text: 'Opt for traditional driving experiences, preferring to be in control without relying on self-driving technology for transportation.',
+        nextText: 5004
+      }
 
-  //   //   {
-  //   //     text: 'Attack it with your sword',
-  //   //     requiredState: (currentState) => currentState.sword,
-  //   //     nextText: 9
-  //   //   },
-  //   //   {
-  //   //     text: 'Hide behind your shield',
-  //   //     requiredState: (currentState) => currentState.shield,
-  //   //     nextText: 10
-  //   //   },
-  //   //   {
-  //   //     text: 'Throw the blue goo at it',
-  //   //     requiredState: (currentState) => currentState.blueGoo,
-  //   //     nextText: 11
-  //   //   }
-  //   ]
-  // },
-  // {
-  //   id: 5001,
-  //   text: 'However, during your test drive, a mishap occurs when the self-driving car\'s AI mistakenly identifies a truck, resulting in a collision. You experience the shock and impact of the accident, sustaining terrible injuries due to the collision caused by the AI\'s misinterpretation. The accident prompts a reassessment of the technology\'s safety and highlights the necessity for further advancements and stringent safety protocols in self-driving vehicles. \n \n Quiz: Why did AI get us in such a bad place?',
-  //   options: [
-  //     {
-  //       text: 'By intentionally causing accidents to test the user\'s reaction and coping skills.',
-  //       nextText: 5003
-  //     },
-  //     {
-  //       text: ' By accidentally misidentifying a truck, leading to a collision and causing injuries.',
-  //       nextText: 5002
-  //     },
-  //     {
-  //       text: 'By suggesting unsafe driving practices to challenge the user\'s decision-making abilities.',
-  //       nextText: 5003
-  //     },
-  //     {
-  //       text: 'By purposely ignoring safety protocols to evaluate the user\'s response in emergency situations.',
-  //       nextText: 5003
-  //     }
-  //   ]
-  // },
+    //   {
+    //     text: 'Attack it with your sword',
+    //     requiredState: (currentState) => currentState.sword,
+    //     nextText: 9
+    //   },
+    //   {
+    //     text: 'Hide behind your shield',
+    //     requiredState: (currentState) => currentState.shield,
+    //     nextText: 10
+    //   },
+    //   {
+    //     text: 'Throw the blue goo at it',
+    //     requiredState: (currentState) => currentState.blueGoo,
+    //     nextText: 11
+    //   }
+    ]
+  },
+  {
+    id: 5001,
+    text: 'However, during your test drive, a mishap occurs when the self-driving car\'s AI mistakenly identifies a truck, resulting in a collision. You experience the shock and impact of the accident, sustaining terrible injuries due to the collision caused by the AI\'s misinterpretation. The accident prompts a reassessment of the technology\'s safety and highlights the necessity for further advancements and stringent safety protocols in self-driving vehicles. \n \n Quiz: Why did AI get us in such a bad place?',
+    options: [
+      {
+        text: 'By intentionally causing accidents to test the user\'s reaction and coping skills.',
+        nextText: 5003
+      },
+      {
+        text: ' By accidentally misidentifying a truck, leading to a collision and causing injuries.',
+        nextText: 5002
+      },
+      {
+        text: 'By suggesting unsafe driving practices to challenge the user\'s decision-making abilities.',
+        nextText: 5003
+      },
+      {
+        text: 'By purposely ignoring safety protocols to evaluate the user\'s response in emergency situations.',
+        nextText: 5003
+      }
+    ]
+  },
 
-  // {
-  //   id: 5004,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 5002,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 5003,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 5004,
+    text: 'Choosing not to use AI in the past for your self-driving car, you went old-school and drove yourself around. It was all about feeling the road, making those turns, and being the boss of your ride. Instead of relying on fancy sensors and algorithms, you kicked it back to the good old days of hands-on driving. No automation, just you, the wheel, and the open road – a classic driving experience that hit you right in the nostalgia feels. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'By intentionally causing accidents to test the user\'s reaction and coping skills.',
+        nextText: 5003
+      },
+      {
+        text: 'By suggesting unsafe driving practices to challenge the user\'s decision-making abilities.',
+        nextText: 5003
+      },
+      {
+        text: 'By purposely ignoring safety protocols to evaluate the user\'s response in emergency situations.',
+        nextText: 5003
+      },
+      {
+        text: ' By accidentally misidentifying a truck, leading to a collision and causing injuries.',
+        nextText: 5002
+      }
+    ]
+  },
+  {
+    id: 5002,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 60,
+        }
+    ]  
+  },
+  {
+    id: 5003,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 53
+        }
+    ]
+  },
 
-  // {
-  //   id: 53,
-  //   text: 'At 53, thinking about simplifying life at home, you\'re mulling over the idea of bringing in some smart house AI magic. The smart house AI '
-  //   + 'would serve as a digital home manager, automating tasks like adjusting lighting, controlling thermostats, and monitoring security, '
-  //   + 'offering convenience and personalized settings tailored to your daily routines. On the flip side, without the AI, it\'s back to doing things the old-school '
-  //   + 'way and staying in control – manually adjusting settings and keeping an eye on everything. Should you welcome smart house AI into your home, streamlining '
-  //   + 'tasks and enhancing convenience, or stick to the traditional, hands-on approach to home management?',
-  //   options: [
-  //     {
-  //       text: 'Dive into the future of home management by embracing smart house AI, letting it handle tasks like lights, temperature, and security for a more automated and convenient living experience.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Stick to the familiar routine of manually managing home tasks without AI, maintaining a hands-on approach to home management.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 53,
+    text: 'At 53, thinking about simplifying life at home, you\'re mulling over the idea of bringing in some smart house AI magic. The smart house AI '
+    + 'would serve as a digital home manager, automating tasks like adjusting lighting, controlling thermostats, and monitoring security, '
+    + 'offering convenience and personalized settings tailored to your daily routines. On the flip side, without the AI, it\'s back to doing things the old-school '
+    + 'way and staying in control – manually adjusting settings and keeping an eye on everything. Should you welcome smart house AI into your home, streamlining '
+    + 'tasks and enhancing convenience, or stick to the traditional, hands-on approach to home management?',
+    options: [
+      {
+        text: 'Dive into the future of home management by embracing smart house AI, letting it handle tasks like lights, temperature, and security for a more automated and convenient living experience.',
+        nextText: 5301
+      },
+      {
+        text: 'Stick to the familiar routine of manually managing home tasks without AI, maintaining a hands-on approach to home management.',
+        nextText: 5304
+      } ]
+  },
 
-  // {
-  //   id: 5301,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
 
-  // {
-  //   id: 5304,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 5301,
+    text: 'Having embraced smart house AI into your home, daily life has become a breeze. The digital home manager seamlessly adjusts lighting, ensuring the perfect ambiance for every moment. It effortlessly controls the thermostat, creating a comfortable environment tailored to your preferences. The security monitoring system, powered by AI, provides peace of mind, alerting you to any unusual activities and enhancing the overall safety of your home. Smart house AI has truly transformed your living space into an efficient, convenient, and secure haven.',
+    options: [
+      {
+        text: 'Through a built-in chef mode, preparing gourmet meals whenever the AI detected you were in the mood for culinary delights.',
+        setState: {},
+        nextText:      5303 
+      },
+      {
+        text: 'By occasionally misinterpreting temperature preferences and turning your home into a tropical paradise, leaving you in a perpetual state of unintentional sauna-like conditions.',
+        setState: {},
+        nextText:       5303
+      },
+      {
+        text: 'By understanding your lighting preferences, adapting to different times of the day, and learning from your routines, making your home a haven of comfort and convenience.',
+        setState: {},
+        nextText:       5302
+      },
+      {
+        text: 'By occasionally misjudging your lighting preferences and transforming your home into a mysterious cave.',
+        setState: {},
+        nextText:       5303
+      }
+    ]
+  },
 
-  // {
-  //   id: 5302,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 5303,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 5304,
+    text: 'Without the smart house AI, your thermostat remains a manual entity, oblivious to your daily routines and preferences. This leads to a lack of adaptation, causing discomfort as your home fails to adjust to changing temperatures and times of the day. Additionally, the manual approach to home management proves inconvenient, requiring you to personally handle every adjustment, from lighting to security. This adds stress to your life and decreases its quality. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'By occasionally misjudging your lighting preferences and transforming your home into a mysterious cave.',
+        setState: {},
+        nextText:    5303   
+      },
+      {
+        text: 'By understanding your lighting preferences, adapting to different times of the day, and learning from your routines, making your home a haven of comfort and convenience.',
+        setState: {},
+        nextText:     5302  
+      },
+      {
+        text: 'By occasionally misinterpreting temperature preferences and turning your home into a tropical paradise, leaving you in a perpetual state of unintentional sauna-like conditions.',
+        setState: {},
+        nextText:   5303    
+      },
+      {
+        text: 'Through a built-in chef mode, preparing gourmet meals whenever the AI detected you were in the mood for culinary delights.',
+        setState: {},
+        nextText:   5303    
+      }
+    ]
+  },
 
-  // {
-  //   id: 55,
-  //   text: 'At 55, with security in mind, you find yourself pondering the adoption of AI for personal security and smart surveillance. The AI-driven security system would '
-  //   + 'act as a vigilant guardian, using facial recognition, motion detection, and smart surveillance to enhance home security, providing real-time alerts and maintaining a watchful '
-  //   + 'eye on your property. On the flip side, without implementing AI, you would rely on traditional security measures, such as manual surveillance, alarms, and locks. '
-  //   + 'Should you embrace AI for an elevated level of personal security and surveillance, or stick to conventional methods for safeguarding your home?',
-  //   options: [
-  //     {
-  //       text: 'Embrace the advanced security features of AI, fortifying your home with facial recognition, motion detection, and smart surveillance for a vigilant and real-time security system.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Stick to traditional security measures, relying on manual surveillance, alarms, and locks without the integration of AI, maintaining a more conventional approach to home security.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 5302,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 62
+        }
+    ]  
+  },
+  {
+    id: 5303,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 55
+        }
+    ]
+  },
 
-  // {
-  //   id: 5501,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 55,
+    text: 'At 55, with security in mind, you find yourself pondering the adoption of AI for personal security and smart surveillance. The AI-driven security system would '
+    + 'act as a vigilant guardian, using facial recognition, motion detection, and smart surveillance to enhance home security, providing real-time alerts and maintaining a watchful '
+    + 'eye on your property. On the flip side, without implementing AI, you would rely on traditional security measures, such as manual surveillance, alarms, and locks. '
+    + 'Should you embrace AI for an elevated level of personal security and surveillance, or stick to conventional methods for safeguarding your home?',
+    options: [
+      {
+        text: 'Embrace the advanced security features of AI, fortifying your home with facial recognition, motion detection, and smart surveillance for a vigilant and real-time security system.',
+        nextText: 5501
+      },
+      {
+        text: 'Stick to traditional security measures, relying on manual surveillance, alarms, and locks without the integration of AI, maintaining a more conventional approach to home security.',
+        nextText: 5504
+      } ]
+  },
 
-  // {
-  //   id: 5504,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 5501,
+    text: 'Embracing smart house AI turned out to be a game-changer. One fateful night, the AI\'s watchful eyes detected an intruder attempting a break-in at a late hour. Swiftly, it alerted the authorities, ensuring a rapid response that thwarted the threat and safeguarded you and your family. The AI\'s quick thinking and seamless integration with security systems became a real-life hero, showcasing the invaluable role it played in enhancing home safety. \n \n How did AI help us here?',
+    options: [
+      {
+        text: 'AI\'s facial recognition and motion detection alerted authorities, preventing the break-in and enhancing overall home security.',
+        setState: {},
+        nextText:     5502  
+      },
+      {
+        text: 'The AI facilitated a cozy atmosphere by adjusting lighting and thermostats, making the home more comfortable.',
+        setState: {},
+        nextText:       5503
+      },
+      {
+        text: 'AI misinterpreted your preferences, leading to uncomfortable temperatures, blinding lights, and other inconvenient home settings.',
+        setState: {},
+        nextText:       5503
+      },
+      {
+        text: 'AI summoned a team of superhero drones to apprehend the burglars.',
+        setState: {},
+        nextText:       5503
+      }
+    ]
+  },
 
-  // {
-  //   id: 5502,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 5503,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 5504,
+    text: 'You decided not to bring smart house AI into your home, you stuck to the traditional ways of managing things. It was all about manually adjusting the lights, keeping tabs on the thermostat, and being the guardian of your home security. However, one day, without the smart AI\'s watchful eye, an unexpected visitor slipped through undetected, putting your family\'s safety at risk. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'AI\'s facial recognition and motion detection could have alerted authorities, preventing the break-in and enhancing overall home security.',
+        setState: {},
+        nextText:       5502
+      },
+      {
+        text: 'AI could have misinterpreted your preferences, leading to uncomfortable temperatures, blinding lights, and other inconvenient home settings.',
+        setState: {},
+        nextText:       5503
+      },
+      {
+        text: 'AI could have mistakenly ordered excessive security measures, turning your home into a fortress and inconveniencing your daily life.',
+        setState: {},
+        nextText:       5503
+      },
+      {
+        text: 'AI might have organized a neighborhood watch group to patrol the area and deter criminal activity.',
+        setState: {},
+        nextText:       5503
+      }
+    ]
+  },
+
+
+  {
+    id: 5502,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 62, // fix
+        }
+    ]  
+  },
+  {
+    id: 5503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 57 
+        }
+    ]
+  },
   
-  // {
-  //   id: 57,
-  //   text: 'At 57, venturing into a new business endeavor, you contemplate the use of AI to streamline the hiring process and sift through resumes for your upcoming company. '
-  //   + 'The AI recruitment tool would analyze resumes using advanced algorithms, identifying relevant skills, experiences, and qualifications, providing a more efficient and '
-  //   + 'data-driven approach to shortlisting candidates. Without AI, the process leans on human judgment, offering a more personalized touch and a greater focus on assessing soft '
-  //   + 'skills and cultural fit. Should you leverage AI to enhance the efficiency and objectivity of your hiring process, or stick to traditional methods to have a more personal '
-  //   + 'selection of your employees?',
-  //   options: [
-  //     {
-  //       text: 'Utilize AI for streamlined efficiency in resume analysis and data-driven hiring decisions.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Embrace a personal touch without AI, relying on human judgment for a more personalized hiring approach.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 57,
+    text: 'At 57, venturing into a new business endeavor, you contemplate the use of AI to streamline the hiring process and sift through resumes for your upcoming company. '
+    + 'The AI recruitment tool would analyze resumes using advanced algorithms, identifying relevant skills, experiences, and qualifications, providing a more efficient and '
+    + 'data-driven approach to shortlisting candidates. Without AI, the process leans on human judgment, offering a more personalized touch and a greater focus on assessing soft '
+    + 'skills and cultural fit. Should you leverage AI to enhance the efficiency and objectivity of your hiring process, or stick to traditional methods to have a more personal '
+    + 'selection of your employees?',
+    options: [
+      {
+        text: 'Utilize AI for streamlined efficiency in resume analysis and data-driven hiring decisions.',
+        nextText: 5701
+      },
+      {
+        text: 'Embrace a personal touch without AI, relying on human judgment for a more personalized hiring approach.',
+        nextText: 5704
+      } ]
+  },
 
-  // {
-  //   id: 5701,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 5701,
+    text: 'In embracing AI for the hiring process, the recruitment tool, despite its advanced algorithms, inadvertently introduced biases in candidate selection due to poor data modeling that failed to reperesent people of different backgrounds. This resulted in accusations of discrimination. The company faced legal challenges, with individuals alleging unfair treatment in the hiring process. \n \n How did AI impact us here?',
+    options: [
+      {
+        text: 'The AI tool helped identify candidates with strong qualifications and relevant skills, streamlining the hiring process.',
+        setState: {},
+        nextText:     5703  
+      },
+      {
+        text: 'The AI algorithm personalized the selection process, focusing on soft skills and cultural fit.',
+        setState: {},
+        nextText:       5703
+      },
+      {
+        text: 'AI significantly reduced the time and effort spent on resume screening, improving efficiency.',
+        setState: {},
+        nextText:       5703
+      },
+      {
+        text: 'Poor data modling introduced diversity issues by unintentionally favoring certain backgrounds, leading to legal consequences.',
+        setState: {},
+        nextText:      5702 
+      }
+    ]
+  },
 
-  // {
-  //   id: 5704,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 5704,
+    text: 'Opting out of AI in the hiring process prioritizes a personalized approach, emphasizing individual soft skills, cultural fit, and unique qualities. This method aims for a nuanced evaluation, focusing on personal connections and a thorough understanding of candidates\' potential contributions. The absence of automated algorithms allows for a tailored search, promoting a team aligned not just in skills but also in values and vision, fostering a more meaningful employment experience. \n \n How could using AI have impacted this situation?',
+    options: [
+      {
+        text: 'By incorporating sophisticated algorithms that unintentionally favored certain backgrounds, leading to diversity issues and potential legal consequences.',
+        setState: {},
+        nextText:    5702   
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       5703
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       5703
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:       5703
+      }
+    ]
+  },
 
-  // {
-  //   id: 5702,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 5703,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 5702,
+    text:'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 65, // fix
+        }
+    ]  
+  },
+  {
+    id: 5703,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 60 
+        }
+    ]
+  },
 
-  // {
-  //   id: 60,
-  //   text: 'Turning 60 and gearing up for your big birthday bash, you\'re pondering whether to let AI handle the invites. Picture this: AI making life easier '
-  //   + 'by sorting contacts, crafting personalized invites, and keeping track of RSVPs, making the whole birthday shindig a breeze. But, hey, not using AI could mean '
-  //   + 'going old school – personalizing each invite by hand, giving them a special touch and creating an intimate vibe for the celebration. What suits your vision for your 60th birthday party?',
-  //   options: [
-  //     {
-  //       text: 'Let AI do its thing, handling invites and RSVPs for a stress-free birthday party setup.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Go for the personal touch, crafting each invite by hand and adding a unique flair to make your celebration extra special.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 60,
+    text: 'Turning 60 and gearing up for your big birthday bash, you\'re pondering whether to let AI handle the invites. Picture this: AI making life easier '
+    + 'by sorting contacts, crafting personalized invites, and keeping track of RSVPs, making the whole birthday shindig a breeze. But, hey, not using AI could mean '
+    + 'going old school – personalizing each invite by hand, giving them a special touch and creating an intimate vibe for the celebration. What suits your vision for your 60th birthday party?',
+    options: [
+      {
+        text: 'Let AI do its thing, handling invites and RSVPs for a stress-free birthday party setup.',
+        nextText: 6001
+      },
+      {
+        text: 'Go for the personal touch, crafting each invite by hand and adding a unique flair to make your celebration extra special.',
+        nextText: 6004
+      } ]
+  },
 
   // {
   //   id: 6001,
-  //   text: '',
+  //   text: 'Opting for AI to handle your 60th birthday invites brings unparalleled efficiency to the party planning process. With its adept sorting capabilities, AI ensures no invitation is overlooked, crafting personalized invites effortlessly and maintaining an organized record of RSVPs. This streamlined approach not only saves valuable time but also guarantees a smooth and stress-free experience, allowing you to focus on enjoying the celebration rather than managing the logistics.',
   //   options: [
   //     {
   //       text: '',
@@ -2201,7 +2195,7 @@ const textNodes = [
 
   // {
   //   id: 6004,
-  //   text: '',
+  //   text: 'Opting out of AI for the birthday invites lends a personal and heartfelt touch to the celebration. By crafting each invite by hand, you invest time and effort into making them unique, reflecting the intimate nature of the event. This traditional approach allows you to infuse personality into every invitation, ensuring that each guest feels the warmth and thoughtfulness behind the gesture. The absence of automated processes contributes to a more personal and cherished atmosphere for your 60th birthday party.',
   //   options: [
   //     {
   //       text: '',
@@ -2226,26 +2220,26 @@ const textNodes = [
   //   ]
   // },
 
-  // {
-  //   id: 6002,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 6003,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 6002,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 70, // fix
+        }
+    ]  
+  },
+  {
+    id: 6003,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 62 
+        }
+    ]
+  },
 
   // {
   //   id: 62,
@@ -2265,7 +2259,7 @@ const textNodes = [
 
   // {
   //   id: 6201,
-  //   text: '',
+  //   text: 'The decision to rely on an AI chatbot proved to be a double-edged sword. With hopes of streamlining the resolution process, the AI chatbot, unfortunately, fell short of expectations. Despite its attempts, the chatbot struggled to comprehend the intricacies of the situation, ultimately leading to a devastating outcome—the complete loss of the money involved in the fraud. \n \n How did AI negatively impact this situation?',
   //   options: [
   //     {
   //       text: '',
@@ -2292,7 +2286,7 @@ const textNodes = [
 
   // {
   //   id: 6204,
-  //   text: '',
+  //   text: 'Choosing the traditional route, you decide to connect with a human representative directly, seeking a more nuanced and understanding approach. This personal interaction allows you to convey the intricacies of the fraud, share your concerns, and engage in a dialogue that goes beyond automated responses. By opting for human communication, you addressed the issue with a level of empathy and comprehension that AI might struggle to provide in such a sensitive situation. \n \n How could using AI have impacted this situation?',
   //   options: [
   //     {
   //       text: '',
@@ -2319,11 +2313,11 @@ const textNodes = [
 
   // {
   //   id: 6202,
-  //   text:'Correct! You advance 4 tiles.',
+  //   text:'Correct! You advance 2 tiles.',
   //   options: [
   //       {
   //           text: 'Continue',
-  //           nextText: 15, // fix
+  //           nextText: 68, 
   //       }
   //   ]  
   // },
@@ -2333,411 +2327,411 @@ const textNodes = [
   //   options: [
   //       {
   //       text: 'Continue',
-  //       nextText: 33 
+  //       nextText: 65
   //       }
   //   ]
   // },
 
-  // {
-  //   id: 65,
-  //   text: 'At 65, thinking about keeping tabs on your health, you\'re weighing the idea of using AI for some personalized health advice.Picture this: Using a cool AI health tracker, like a chatbot, to get real-time tips, track your health stuff, and maybe pick up some insights along the way. On the flip side, skipping the AI might mean doing it old school – chatting with a human on the phone, getting personalized health advice, the classic way. Now, the real talk: Do you go with the tech-savvy AI for hassle-free health tracking, or stick to the good chat with a human for that personal touch?',
-  //   options: [
-  //     {
-  //       text: 'Roll with the AI health tracker, getting those real-time tips and personalized insights for an easy-breezy health journey.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Keep it classic, dial up a human on the phone for that personalized health advice and guidance.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 65,
+    text: 'At 65, thinking about keeping tabs on your health, you\'re weighing the idea of using AI for some personalized health advice.Picture this: Using a cool AI health tracker, like a chatbot, to get real-time tips, track your health stuff, and maybe pick up some insights along the way. On the flip side, skipping the AI might mean doing it old school – chatting with a human on the phone, getting personalized health advice, the classic way. Now, the real talk: Do you go with the tech-savvy AI for hassle-free health tracking, or stick to the good chat with a human for that personal touch?',
+    options: [
+      {
+        text: 'Roll with the AI health tracker, getting those real-time tips and personalized insights for an easy-breezy health journey.',
+        nextText: 6501
+      },
+      {
+        text: 'Keep it classic, dial up a human on the phone for that personalized health advice and guidance.',
+        nextText: 6504
+      } ]
+  },
 
-  // {
-  //   id: 6501,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 6501,
+    text: 'Choosing the AI health tracker proves to be a game-changer, offering not just real-time tips and health tracking but also personalized insights tailored to your unique health needs. The AI, acting as a virtual health companion, ensures hassle-free and convenient health management, providing a seamless experience for tracking, advice, and health-related queries. The efficiency and accessibility of AI contribute to a proactive approach to health, empowering you to stay informed and make informed decisions about your well-being.',
+    options: [
+      {
+        text: 'The AI implemented machine learning algorithms to adapt and provide increasingly accurate and personalized health advice over time.',
+        setState: {},
+        nextText:       6502
+      },
+      {
+        text: 'The AI health tracker relied on outdated medical information, offering recommendations based on old guidelines and research.',
+        setState: {},
+        nextText:  6503     
+      },
+      {
+        text: 'The AI misinterpreted your health data, leading to inaccurate insights and suggestions that were not relevant to your actual health status.',
+        setState: {},
+        nextText:      6503 
+      },
+      {
+        text: 'The AI health chatbot was programmed with a generic algorithm, providing one-size-fits-all advice that didn\'t consider your specific health needs and conditions.',
+        setState: {},
+        nextText:    6503   
+      }
+    ]
+  },
 
-  // {
-  //   id: 6504,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 6504,
+    text: 'Opting out of AI for health tracking allowed you to cultivate a more personal and human-centric approach. You decided to work with a health coach who provided tailored advice, understanding your unique health goals and concerns. Additionally, you continued to engage in meaningful conversations with your healthcare provider, fostering a strong doctor-patient relationship and receiving personalized insights based on your medical history and current well-being. \n \n  How could AI have positively impacted this situation?',
+    options: [
+      {
+        text: 'The AI health tracker could\'ve relied on outdated medical information, offering recommendations based on old guidelines and research.',
+        setState: {},
+        nextText:  6503     
+      },
+      {
+        text: 'The AI could\'ve implemented machine learning algorithms to adapt and provide increasingly accurate and personalized health advice over time.',
+        setState: {},
+        nextText:       6502
+      },
+      {
+        text: 'The AI could\'ve misinterpreted your health data, leading to inaccurate insights and suggestions that were not relevant to your actual health status.',
+        setState: {},
+        nextText:      6503 
+      },
+      {
+        text: 'The AI health chatbot could\'ve been programmed with a generic algorithm, providing one-size-fits-all advice that didn\'t consider your specific health needs and conditions.',
+        setState: {},
+        nextText:    6503   
+      }
+    ]
+  },
 
-  // {
-  //   id: 6502,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 6503,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 6502,
+    text:'Correct! You advance 2 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 70, // fix
+        }
+    ]  
+  },
+  {
+    id: 6503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 68 
+        }
+    ]
+  },
 
-  // {
-  //   id: 68,
-  //   text: 'At 68, eyeing goodies for your new grandkids, you\'re weighing the option of using AI recommendations on a shopping app. Picture this: Glancing at AI-suggested purchases, letting the smart algorithms guide your choices for age-appropriate gifts and possibly snagging some discounts in the process. On the flip side, steering clear of AI might mean going the traditional route – having a chat with a human on the phone, seeking advice, and making purchases with a personal touch. Now, the question on the table: Should you trust the AI for a tech-savvy shopping spree, or keep it classic with a more human-centric approach?',
-  //   options: [
-  //     {
-  //       text: 'Dive into the digital realm, relying on AI-recommended purchases for a quick and efficient shopping spree, ensuring you pick out the perfect gifts for your grandkids.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Stick with the tried-and-true method, have a chat with a human on the phone, getting personalized advice and recommendations for a more traditional and hands-on approach to spoil your new grandkids. ',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 68,
+    text: 'At 68, eyeing goodies for your new grandkids, you\'re weighing the option of using AI recommendations on a shopping app. Picture this: Glancing at AI-suggested purchases, letting the smart algorithms guide your choices for age-appropriate gifts and possibly snagging some discounts in the process. On the flip side, steering clear of AI might mean going the traditional route – having a chat with a human on the phone, seeking advice, and making purchases with a personal touch. Now, the question on the table: Should you trust the AI for a tech-savvy shopping spree, or keep it classic with a more human-centric approach?',
+    options: [
+      {
+        text: 'Dive into the digital realm, relying on AI-recommended purchases for a quick and efficient shopping spree, ensuring you pick out the perfect gifts for your grandkids.',
+        nextText: 6801
+      },
+      {
+        text: 'Stick with the tried-and-true method, have a chat with a human on the phone, getting personalized advice and recommendations for a more traditional and hands-on approach to spoil your new grandkids. ',
+        nextText: 6804
+      } ]
+  },
 
-  // {
-  //   id: 6801,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 6801,
+    text: 'Embracing AI recommendations for selecting gifts for your grandkids turned out to be a delightful experience. The smart algorithms provided age-appropriate suggestions, helping you choose presents that resonated with the kids\' interests. As a result, your grandkids were thrilled with the thoughtful gifts, expressing their joy and strengthening the bond between generations. \n \n How did AI positively impact this situation?',
+    options: [
+      {
+        text: 'AI\'s predictive analytics suggested gifts that perfectly matched your grandkids\' astrological signs, adding an unexpected cosmic touch to their surprises.',
+        setState: {},
+        nextText: 6803      
+      },
+      {
+        text: 'The AI, with its algorithm, accurately predicted the future interests of your grandkids, ensuring gifts that would remain relevant for years to come.',
+        setState: {},
+        nextText:      6803 
+      },
+      {
+        text: 'The AI\'s recommendations led to age-appropriate gift choices, ensuring your grandkids received items suitable for their interests and developmental stage.',
+        setState: {},
+        nextText:       6802
+      },
+      {
+        text: 'Leveraging AI, you received real-time weather updates for the grandkids\' location, making sure the gifts were weather-appropriate even before they opened them.',
+        setState: {},
+        nextText:       6803
+      }
+    ]
+  },
 
-  // {
-  //   id: 6804,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 6804,
+    text: 'Opting out of AI for shopping allowed you to embrace a more personal and heartwarming approach. Instead of relying on algorithms, you decided to consult with your own child to understand the specific wishes and preferences of your grandkids. This led to thoughtful and personalized gift choices, making the shopping experience more meaningful and fostering a deeper connection with your grandkids. \n \n How could AI have negatively impacted this situation?',
+    options: [
+      {
+        text: 'AI might have prioritized recommending gifts for imaginary friends of your grandkids, leading to confusing and unrelated suggestions.',
+        setState: {},
+        nextText:     6803  
+      },
+      {
+        text: 'The AI\'s algorithms could have focused on predicting future interests of your grandkids.',
+        setState: {},
+        nextText:      6803 
+      },
+      {
+        text: 'AI algorithms might not have considered the sentimental value attached to certain items, resulting in gifts that lack the emotional significance you achieved by consulting your child.',
+        setState: {},
+        nextText:   6802    
+      },
+      {
+        text: 'You could have received real-time weather updates for the grandkids\' location, making sure the gifts were weather-appropriate even before they opened them.',
+        setState: {},
+        nextText:       6803
+      }
+    ]
+  },
 
-  // {
-  //   id: 6802,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 6803,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 6802,
+    text:'Correct! You advance 2 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 73, // fix
+        }
+    ]  
+  },
+  {
+    id: 6803,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 70 
+        }
+    ]
+  },
 
-  // {
-  //   id: 70,
-  //   text: 'At 70, eager to enhance joint well-being, you\'re mulling over the prospect of employing AI to curate a novel fitness regimen. Enlisting AI assistance to devise a customized exercise plan that takes into account your joint health, fitness level, and preferences could deliver a tailored and efficient approach. Bypassing the AI route, however, might involve a more conventional avenue – engaging in a dialogue with a fitness expert over the phone, seeking advice, and formulating a workout plan with a personalized touch. Should you let AI steer the ship for a cutting-edge and personalized fitness plan, or adhere to a more hands-on approach?',
-  //   options: [
-  //     {
-  //       text: 'Dive into the tech realm, harness AI to design a bespoke workout plan tailored to your joint health and fitness objectives, ensuring an efficient and customized exercise routine.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Have a chat with a fitness expert over the phone, obtaining personalized advice and constructing a personalized and age-appropriate workout plan.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 70,
+    text: 'At 70, eager to enhance joint well-being, you\'re mulling over the prospect of employing AI to curate a novel fitness regimen. Enlisting AI assistance to devise a customized exercise plan that takes into account your joint health, fitness level, and preferences could deliver a tailored and efficient approach. Bypassing the AI route, however, might involve a more conventional avenue – engaging in a dialogue with a fitness expert over the phone, seeking advice, and formulating a workout plan with a personalized touch. Should you let AI steer the ship for a cutting-edge and personalized fitness plan, or adhere to a more hands-on approach?',
+    options: [
+      {
+        text: 'Dive into the tech realm, harness AI to design a bespoke workout plan tailored to your joint health and fitness objectives, ensuring an efficient and customized exercise routine.',
+        nextText: 7001
+      },
+      {
+        text: 'Have a chat with a fitness expert over the phone, obtaining personalized advice and constructing a personalized and age-appropriate workout plan.',
+        nextText: 7004
+      } ]
+  },
 
-  // {
-  //   id: 7001,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 7001,
+    text: 'Opting for AI in crafting a fitness plan led to a depersonalized experience with harmful consequences. The AI-generated exercise regimen, despite its intention to consider joint health and fitness level, resulted in recommending exercises that were not suitable for your specific conditions.  This resulted in a seever injury that landed you in the hospital. \n \n',
+    options: [
+      {
+        text: 'The AI was too helpful, recommending exercises that were too easy, leading to boredom and lack of progress.',
+        setState: {},
+        nextText:   7003    
+      },
+      {
+        text: 'The AI provided irrelevant nutritional advice, causing confusion and dietary issues.',
+        setState: {},
+        nextText: 7003      
+      },
+      {
+        text: 'The AI-generated exercise regimen recommended exercises that were not suitable for your specific conditions.',
+        setState: {},
+        nextText:     7002  
+      },
+      {
+        text: 'The AI\'s exercise recommendations were too personalized.',
+        setState: {},
+        nextText:  7003     
+      }
+    ]
+  },
 
-  // {
-  //   id: 7004,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 7004,
+    text: 'Opting out of AI for fitness planning paved the way for a more personal and hands-on approach. Choosing to consult with a fitness expert over the phone, you engaged in insightful conversations to tailor a workout plan that considered your joint health, fitness level, and preferences. This human-centric strategy ensured a fitness regimen aligned with your specific needs, fostering a more personalized and injury-free exercise experience. \n \n How could\'ve AI impacted this situation negatively?',
+    options: [
+      {
+        text: 'The AI-generated plan could have been overly intense, causing strain and fatigue, and increasing the risk of injury during exercise.',
+        setState: {},
+        nextText: 7002      
+      },
+      {
+        text: 'The AI could have provided irrelevant nutritional advice, causing confusion and dietary issues.',
+        setState: {},
+        nextText:  7003     
+      },
+      {
+        text: 'The AI could have been too helpful, recommending exercises that were too easy, leading to boredom and lack of progress.',
+        setState: {},
+        nextText:  7003     
+      },
+      {
+        text: 'The AI\'s exercise recommendations could have been too personalized.',
+        setState: {},
+        nextText:  7003     
+      }
+    ]
+  },
 
-  // {
-  //   id: 7002,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 7003,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 7002,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 78, 
+        }
+    ]  
+  },
+  {
+    id: 7003,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 73
+        }
+    ]
+  },
 
-  // {
-  //   id: 73,
-  //   text: 'At 73, contemplating a trip to the doctor\'s, you\'re weighing the option of using a self-driving car taxi. Opting for a self-driving car taxi, guided by AI, to effortlessly navigate the journey to your doctor\'s appointment can provide convenience and a quiet travel experience. On the flip side, ordering a human-driven taxi might involve having a nice conversation with another person and effective communication with the driver about your journey. Should you embrace the convenience of a self-driving car taxi for a hassle-free trip to the doctor, or take the chance to have a pleasant ride with a real driver?',
-  //   options: [
-  //     {
-  //       text: 'Dive into the future, hop on the self-driving car taxi for a convenient and hands-free journey to your doctor\'s appointment, enjoying the benefits of automated transportation.',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Keep it classic, engage in a conversation with a human on the phone, arrange transportation, and have a human driver navigate the journey to your doctor\'s appointment.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 73,
+    text: 'At 73, contemplating a trip to the doctor\'s, you\'re weighing the option of using a self-driving car taxi. Opting for a self-driving car taxi, guided by AI, to effortlessly navigate the journey to your doctor\'s appointment can provide convenience and a quiet travel experience. On the flip side, ordering a human-driven taxi might involve having a nice conversation with another person and effective communication with the driver about your journey. Should you embrace the convenience of a self-driving car taxi for a hassle-free trip to the doctor, or take the chance to have a pleasant ride with a real driver?',
+    options: [
+      {
+        text: 'Dive into the future, hop on the self-driving car taxi for a convenient and hands-free journey to your doctor\'s appointment, enjoying the benefits of automated transportation.',
+        nextText: 7301
+      },
+      {
+        text: 'Keep it classic, engage in a conversation with a human on the phone, arrange transportation, and have a human driver navigate the journey to your doctor\'s appointment.',
+        nextText: 7304
+      } ]
+  },
 
-  // {
-  //   id: 7301,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 7301,
+    text: 'Opting for a self-driving car taxi, guided by AI, resulted in a negative experience as the technology encountered unexpected challenges, leading to a situation where the vehicle lost its way. The AI system struggled to navigate through certain conditions or faced glitches that hindered its ability to ensure a smooth and efficient journey. ',
+    options: [
+      {
+        text: 'The AI\'s navigation errors were deliberate and designed to inconvenience users, causing intentional disruptions in the journey.',
+        setState: {},
+        nextText:  7303     
+      },
+      {
+        text: 'The AI\'s glitches were a deliberate attempt by competing companies to tarnish the reputation of self-driving cars and discourage their use.',
+        setState: {},
+        nextText:    7303   
+      },
+      {
+        text: 'The AI\'s challenges in navigation were a result of extraterrestrial interference, causing disruptions in its communication and decision-making processes.',
+        setState: {},
+        nextText: 7303      
+      },
+      {
+        text: 'The AI\'s struggle to navigate through unexpected challenges and glitches in its algorithms resulted in the loss of its way.',
+        setState: {},
+        nextText:  7302     
+      }
+    ]
+  },
 
-  // {
-  //   id: 7304,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 7304,
+    text: 'Opting for a human-driven taxi instead of relying on AI for a self-driving car provided a delightful travel experience to your doctor\'s appointment. The decision to engage with a human driver allowed for a pleasant conversation throughout the journey, creating a warm and friendly atmosphere. This choice offered the chance to share stories, exchange pleasantries, and enjoy a personalized interaction, emphasizing the value of human connections and the richness of communication that can be missed in a fully automated experience.',
+    options: [
+      {
+        text: 'The AI, attempting to engage in conversation, might have insisted on discussing its favorite travel destinations, veering off-topic and making the journey less enjoyable.',
+        setState: {},
+        nextText: 7303      
+      },
+      {
+        text: 'The AI\'s struggle to navigate through unexpected challenges, glitches in its algorithms, and lack of personalization could have resulted in the loss of its way and a less enjoyable trip.',
+        setState: {},
+        nextText: 7302      
+      },
+      {
+        text: 'The AI, misinterpreting your preferences, could have played a constant loop of cheesy elevator music.',
+        setState: {},
+        nextText: 7303      
+      },
+      {
+        text: '',
+        setState: {},
+        nextText: 7303      
+      }
+    ]
+  },
 
-  // {
-  //   id: 7302,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 7303,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 7302,
+    text:'Correct! You advance 4 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 82
+        }
+    ]  
+  },
+  {
+    id: 7303,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 75 
+        }
+    ]
+  },
 
-  // {
-  //   id: 75,
-  //   text: 'At 75, you receive a call from the President, who urgently needs your support and requests a $500 contribution to his campaign. In the call, the president sounds convincing and asks for your debit card information to process the donation promptly. Considering the alternative, you might wonder about the legitimacy of the call, asking how he got your number, and insisting that you could contribute later through his official campaign website, ensuring a secure and verified transaction. Should you provide your debit card information over the phone for the President, or take a more cautious approach?',
-  //   options: [
-  //     {
-  //       text: 'Refrain from providing debit card information over the phone, and instead opt to contribute later through the President\'s official campaign website',
-  //       nextText: 
-  //     },
-  //     {
-  //       text: 'Abide by the President\'s wishes and give your debit card information to support his campaign.',
-  //       nextText: 
-  //     } ]
-  // },
+  {
+    id: 75,
+    text: 'At 75, you receive a call from the President, who urgently needs your support and requests a $500 contribution to his campaign. In the call, the president sounds convincing and asks for your debit card information to process the donation promptly. Considering the alternative, you might wonder about the legitimacy of the call, asking how he got your number, and insisting that you could contribute later through his official campaign website, ensuring a secure and verified transaction. Should you provide your debit card information over the phone for the President, or take a more cautious approach?',
+    options: [
+      {
+        text: 'Refrain from providing debit card information over the phone, and instead opt to contribute later through the President\'s official campaign website',
+        nextText: 7501
+      },
+      {
+        text: 'Abide by the President\'s wishes and give your debit card information to support his campaign.',
+        nextText: 7504
+      } ]
+  },
 
-  // {
-  //   id: 7501,
-  //   text: '',
-  //   options: [
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     },
-  //     {
-  //       text: '',
-  //       setState: {},
-  //       nextText:       
-  //     }
-  //   ]
-  // },
+  {
+    id: 7501,
+    text: 'Opting to accept the call and providing your debit card information over the phone turned out to be a costly mistake. Unbeknownst to you, the call was a sophisticated deepfake, manipulated to sound like the President. Falling victim to this scam, you believed it was a genuine request, leading to a fraudulent donation of $500. Unfortunately, the deception was well-crafted, and the scammer successfully exploited the situation, highlighting the risks associated with trusting phone calls without thorough verification.',
+    options: [
+      {
+        text: '',
+        setState: {},
+        nextText:  7503    
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:  7503     
+      },
+      {
+        text: 'The AI facilitated the creation and dissemination of a highly convincing deepfake, making it challenging for you to discern the fraudulent nature of the call.',
+        setState: {},
+        nextText: 7502      
+      },
+      {
+        text: '',
+        setState: {},
+        nextText:  7503     
+      }
+    ]
+  },
 
   // {
   //   id: 7504,
-  //   text: '',
+  //   text: 'Opting for a more cautious approach, you decided not to provide your debit card information over the phone and instead chose to donate later through the official campaign website. This decision proved to be a wise one, as it later came to light that the call was a sophisticated deepfake, attempting to scam unsuspecting individuals. By choosing the secure online platform, you safeguarded yourself from falling victim to the fraudulent scheme and saved $500, highlighting the importance of verifying requests, especially in situations that involve financial transactions.',
   //   options: [
   //     {
   //       text: '',
@@ -2762,26 +2756,26 @@ const textNodes = [
   //   ]
   // },
 
-  // {
-  //   id: 7502,
-  //   text:'Correct! You advance 4 tiles.',
-  //   options: [
-  //       {
-  //           text: 'Continue',
-  //           nextText: 15, // fix
-  //       }
-  //   ]  
-  // },
-  // {
-  //   id: 7503,
-  //   text: 'Not quite right... you’ll advance one tile!',
-  //   options: [
-  //       {
-  //       text: 'Continue',
-  //       nextText: 33 
-  //       }
-  //   ]
-  // },
+  {
+    id: 7502,
+    text:'Correct! You advance 3 tiles.',
+    options: [
+        {
+            text: 'Continue',
+            nextText: 82
+        }
+    ]  
+  },
+  {
+    id: 7503,
+    text: 'Not quite right... you’ll advance one tile!',
+    options: [
+        {
+        text: 'Continue',
+        nextText: 77 
+        }
+    ]
+  },
 
   // {
   //   id: 77,
@@ -2799,7 +2793,7 @@ const textNodes = [
 
   // {
   //   id: 7701,
-  //   text: '',
+  //   text: 'Opting to trust the AI tool for medication recommendations, you followed its suggestions, only to discover that the recommendations were incorrect and led to a misdiagnosis. This unfortunate turn of events resulted in receiving medications unsuitable for your condition, ultimately causing adverse effects and a decline in your health. ',
   //   options: [
   //     {
   //       text: '',
@@ -2826,7 +2820,7 @@ const textNodes = [
 
   // {
   //   id: 7704,
-  //   text: '',
+  //   text: 'Choosing not to rely on the AI tool, you visited the doctor to discuss your symptoms and receive a personalized diagnosis and treatment plan. This decision proved beneficial as the doctor, with their human touch and expertise, conducted a thorough examination, listened to your concerns, and considered various factors. The in-depth conversation allowed for a deeper understanding of your health condition, leading to an accurate diagnosis and a tailored treatment strategy. ',
   //   options: [
   //     {
   //       text: '',
@@ -2888,7 +2882,7 @@ const textNodes = [
 
   // {
   //   id: 7801,
-  //   text: '',
+  //   text: 'Opting for the AI smart home voice assistant, you effortlessly adjusted the temperature to a more comfortable setting, showcasing the convenience and independence it offers. This decision allowed you to have control over your immediate environment without relying on external assistance, promoting a sense of autonomy. The AI tool proved to be a valuable resource in ensuring that your living space remains tailored to your preferences, providing a seamless and efficient solution to address your comfort needs.',
   //   options: [
   //     {
   //       text: '',
@@ -2915,7 +2909,7 @@ const textNodes = [
 
   // {
   //   id: 7804,
-  //   text: '',
+  //   text: 'Opting not to use the AI smart home assistant, you decided to ask your grandkid, who was upstairs wearing headphones, to adjust the temperature. Unfortunately, amidst the hustle and bustle and with the headphones on, your grandkid didn't hear your request. This left you with the discomfort of feeling cold and experiencing discomfort in your bones.',
   //   options: [
   //     {
   //       text: '',
@@ -2977,7 +2971,7 @@ const textNodes = [
 
   // {
   //   id: 8201,
-  //   text: '',
+  //   text: 'Implementing the AI camera system proved to be a pivotal decision for your well-being. In an instance where you experienced a fall, the AI tool detected the irregular movement and promptly notified your child. This quick response enabled your child to take immediate action, ensuring you received the necessary care and attention promptly. ',
   //   options: [
   //     {
   //       text: '',
@@ -3004,7 +2998,7 @@ const textNodes = [
 
   // {
   //   id: 8204,
-  //   text: '',
+  //   text: 'Choosing not to implement the AI camera system, you relied on more traditional methods of communication with your child, such as regular check-ins and phone calls. Unfortunately, one day, while at home, you experienced a fall, breaking your hip. With no immediate detection system in place, you had to endure hours of discomfort and pain before finally getting the necessary help. ',
   //   options: [
   //     {
   //       text: '',
@@ -3066,7 +3060,7 @@ const textNodes = [
 
   // {
   //   id: 8601,
-  //   text: '',
+  //   text: 'The AI companion provided consistent and patient support, offering timely reminders, engaging in meaningful conversations, and adapting to your evolving needs. This not only alleviated feelings of loneliness but also contributed to an improved emotional state, as the AI buddy became a constant companion, providing comfort and companionship in moments when human interactions may have been challenging. ',
   //   options: [
   //     {
   //       text: '',
@@ -3093,7 +3087,7 @@ const textNodes = [
 
   // {
   //   id: 8604,
-  //   text: '',
+  //   text: 'You relied solely on human interactions for companionship following the dementia diagnosis. Unfortunately, as time passed, the absence of consistent support from an AI companion took a toll on your mental and emotional well-being. The challenges of dementia became increasingly overwhelming, and the lack of continuous reminders and engagement led to a deterioration in your health. ',
   //   options: [
   //     {
   //       text: '',
